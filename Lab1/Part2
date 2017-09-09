@@ -1,0 +1,25 @@
+Script started on Tue Aug 30 23:08:23 2016
+]0;chen_x@cobra:~/Labs/Lab1[?1034h[chen_x@cobra Lab1]$ cat hav[K[K[KProg2.java
+//This Program will read a string and give its length
+//Written by : <Xinxin Chen>
+
+import java.util.*;
+class Prog2
+{
+	public static void main (String[] args)
+	{
+		String data;
+		
+		System.out.print("Enter a string: ");
+		Scanner stdin = new Scanner(System.in);
+		data = stdin.nextLine();
+		
+	 	System.out.println("The string has " + data.length() + 
+				   " characters.");	
+	}
+}	
+]0;chen_x@cobra:~/Labs/Lab1[chen_x@cobra Lab1]$ javac Prog2.java
+]0;chen_x@cobra:~/Labs/Lab1[chen_x@cobra Lab1]$ exit
+exit
+
+Script done on Tue Aug 30 23:08:55 2016
